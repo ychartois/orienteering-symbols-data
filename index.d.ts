@@ -9,7 +9,7 @@ export interface ControlDescription {
 }
 
 export interface MapSymbol {
-  id: string;
+  code: string;
   name: string;
   type: string;
   description: string;

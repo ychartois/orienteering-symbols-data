@@ -28,7 +28,7 @@ Each control description has the following format:
 Each map symbol has the following format:
 ```json
 {
-  "id": "101",           // Symbol ID
+  "code": "101",           // Symbol code
   "name": "Contour",     // Name of the symbol
   "type": "Landforms",   // Category of the symbol
   "description": "...",  // Text description
