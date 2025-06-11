@@ -1,0 +1,882 @@
+[
+    {
+        "code": "101",
+        "image": "101_contour.png",
+        "name": "Contour",
+        "description": "A line joining points of equal height. The standard vertical interval between contours is 5 m. A contour interval of 2.5 m may be used for flat terrains.",
+        "control_description": ["1.1", "1.2", "1.3", "1.9", "1.11", "1.12"],
+        "type": "Landforms"
+    },
+    {
+        "code": "102",
+        "image": "102_index_contour.png",
+        "name": "Index contour",
+        "description": "Every fifth contour shall be drawn with a thicker line. This is an aid to the quick assessment of height difference and the overall shape of the terrain surface.",
+        "control_description": ["1.1", "1.2", "1.3", "1.9", "1.11", "1.12"],
+        "type": "Landforms"
+    },
+    {
+        "code": "103",
+        "image": "103_form_line.png",
+        "name": "Form line",
+        "description": "Used where more information must be given about the shape of the ground. Form lines are added only where representation would be incomplete with ordinary contours.",
+        "control_description": ["1.1", "1.2", "1.3", "1.9", "1.11", "1.12"],
+        "type": "Landforms"
+    },
+    {
+        "code": "104",
+        "image": "104_earth_bank.png",
+        "name": "Earth bank",
+        "description": "Abrupt change in ground level which can be clearly distinguished from its surroundings, e.g. gravel or sand pits, road and railway cuttings or embankments.",
+        "control_description": ["1.4", "1.5"],
+        "type": "Landforms"
+    },
+    {
+        "code": "105",
+        "image": "105_earth_wall.png",
+        "name": "Earth wall",
+        "description": "Distinct earth wall.",
+        "control_description": ["1.6"],
+        "type": "Landforms"
+    },
+    {
+        "code": "106",
+        "image": "106_ruined_earth_wall.png",
+        "name": "Ruined earth wall",
+        "description": "A ruined or less distinct earth wall.",
+        "control_description": ["1.6"],
+        "type": "Landforms"
+    },
+    {
+        "code": "107",
+        "image": "107_erosion_gully.png",
+        "name": "Erosion gully",
+        "description": "An erosion gully which is too small to be shown using symbol Earth bank (104) is shown by a single line.",
+        "control_description": ["1.7"],
+        "type": "Landforms"
+    },
+    {
+        "code": "108",
+        "image": "108_small_erosion_gully.png",
+        "name": "Small erosion gully",
+        "description": "A small erosion gully, dry ditch or trench.",
+        "control_description": ["1.8"],
+        "type": "Landforms"
+    },
+    {
+        "code": "109",
+        "image": "109_small_knoll.png",
+        "name": "Small knoll",
+        "description": "An obvious mound or knoll which cannot be drawn to scale with a contour.",
+        "control_description": ["1.10"],
+        "type": "Landforms"
+    },
+    {
+        "code": "110",
+        "image": "110_small_elongated_knoll.png",
+        "name": "Small elongated knoll",
+        "description": "An obvious elongated knoll which cannot be drawn to scale with a contour.",
+        "control_description": ["1.10"],
+        "type": "Landforms"
+    },
+    {
+        "code": "111",
+        "image": "111_small_depression.png",
+        "name": "Small depression",
+        "description": "A small depression or hollow without steep sides that is too small to be shown by contours.",
+        "control_description": ["1.13"],
+        "type": "Landforms"
+    },
+    {
+        "code": "112",
+        "image": "112_pit.png",
+        "name": "Pit",
+        "description": "A pit or hole with distinct steep sides which cannot be shown to scale using symbol Earth bank (104).",
+        "control_description": ["1.14"],
+        "type": "Landforms"
+    },
+    {
+        "code": "113",
+        "image": "113_broken_ground.png",
+        "name": "Broken ground",
+        "description": "An area of pits and / or knolls which is too intricate to be shown in detail, or other types of rough and uneven ground that is clearly distinguishable but has little impact on runnability.",
+        "control_description": ["1.15"],
+        "type": "Landforms"
+    },
+    {
+        "code": "114",
+        "image": "114_very_broken_ground.png",
+        "name": "Very broken ground",
+        "description": "An area of pits and/or knolls, which is too intricate to be shown in detail, or other types of rough and uneven ground that is clearly distinguishable and affects runnability.",
+        "control_description": ["1.15"],
+        "type": "Landforms"
+    },
+    {
+        "code": "115",
+        "image": "115_prominent_landform_feature.png",
+        "name": "Prominent landform feature",
+        "description": "The feature must be very clearly distinguishable from its surroundings.",
+        "control_description": ["1.16"],
+        "type": "Landforms"
+    },
+    {
+        "code": "201",
+        "image": "201_impassable_cliff.png",
+        "name": "Impassable cliff",
+        "description": "A cliff, quarry or earth bank that is so high and steep that it is impossible to pass/climb or is dangerous.",
+        "control_description": ["2.1"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "202",
+        "image": "202_cliff.png",
+        "name": "Cliff",
+        "description": "A passable cliff or quarry. If the direction of fall of the cliff is not apparent from the contours, or to improve legibility, short tags may be drawn in the direction of the downslope.",
+        "control_description": ["2.1", "2.9"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "203",
+        "image": "203_rocky_pit_or_cave.png",
+        "name": "Rocky pit or cave",
+        "description": "Rocky pits, holes, caves or mineshafts which may constitute a danger to the competitor.",
+        "control_description": ["1.14", "2.3"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "204",
+        "image": "204_boulder.png",
+        "name": "Boulder",
+        "description": "A distinct boulder (should be higher than 1 m), which is immediately identifiable on the ground. Groups of boulders are represented using symbol Boulder cluster (207) or a boulder field symbol (208, 209).",
+        "control_description": ["2.4"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "205",
+        "image": "205_large_boulder.png",
+        "name": "Large boulder",
+        "description": "A particularly large and distinct boulder. A large boulder should be more than 2 m high.",
+        "control_description": ["2.4"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "206",
+        "image": "206_gigantic_boulder_or_rock_pilar.png",
+        "name": "Gigantic boulder or rock pilar",
+        "description": "A gigantic boulder, rock pillar or massive cliff shall be represented in plan shape. The objects can vary in shape and width.",
+        "control_description": ["2.2"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "207",
+        "image": "207_boulder_cluster.png",
+        "name": "Boulder cluster",
+        "description": "A distinct group of boulders so closely clustered together that they cannot be marked individually. The boulders in the cluster should be higher than 1 m.",
+        "control_description": ["2.6"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "208",
+        "image": "208_boulder_field.png",
+        "name": "Boulder field",
+        "description": "An area covered with so many scattered blocks of stone that they cannot be marked individually.",
+        "control_description": ["2.5"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "209",
+        "image": "209_dense_boulder_field.png",
+        "name": "Dense boulder field",
+        "description": "An area covered with so many blocks of stone that they cannot be marked individually and the runnability is affected.",
+        "control_description": ["2.5"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "210",
+        "image": "210_stony_ground_slow_running.png",
+        "name": "Stony ground slow running",
+        "description": "Stony or rocky ground which reduces runnability to about 60-80% of normal speed.",
+        "control_description": ["2.7"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "211",
+        "image": "211_stony_ground_walk.png",
+        "name": "Stony ground walk",
+        "description": "Stony or rocky ground which reduces the runnability significantly (to about 20-60% of normal speed).",
+        "control_description": ["2.7"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "212",
+        "image": "212_stony_ground_fight.png",
+        "name": "Stony ground fight",
+        "description": "Stony or rocky ground which is hardly passable (less than 20% of normal speed).",
+        "control_description": ["2.7"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "213",
+        "image": "213_sandy_ground.png",
+        "name": "Sandy ground",
+        "description": "An area of soft sandy ground where runnability is reduced to less than 80% of normal speed.",
+        "control_description": ["4.1"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "214",
+        "image": "214_bare_rock.png",
+        "name": "Bare rock",
+        "description": "A runnable area of rock without earth or vegetation should be shown as bare rock.",
+        "control_description": ["2.8"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "215",
+        "image": "215_trench.png",
+        "name": "Trench",
+        "description": "Rocky or artificial trench. Minimum depth should be 1 m.",
+        "control_description": ["2.10"],
+        "type": "Rocks and Boulders"
+    },
+    {
+        "code": "301",
+        "image": "301_uncrossable_body_of_water.png",
+        "name": "Uncrossable body of water",
+        "description": "Uncrossable body of water. The black bank line emphasises that the feature is uncrossable.",
+        "control_description": ["3.1", "3.2", "3.4"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "302",
+        "image": "302_shallow_body_of_water.png",
+        "name": "Shallow body of water",
+        "description": "Shallow body of water. A shallow seasonal or periodic body of water may be represented using a dashed outline.",
+        "control_description": ["3.2"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "303",
+        "image": "303_waterhole.png",
+        "name": "Waterhole",
+        "description": "A water-filled pit or an area of water which is too small to be shown to scale.",
+        "control_description": ["3.3"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "304",
+        "image": "304_crossable_watercourse.png",
+        "name": "Crossable watercourse",
+        "description": "A crossable watercourse. Should be at least 2 m wide.",
+        "control_description": ["3.4"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "305",
+        "image": "305_small_crossable_watercourse.png",
+        "name": "Small crossable watercourse",
+        "description": "A small crossable watercourse.",
+        "control_description": ["3.4"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "306",
+        "image": "306_minor_seasonal_water_channel.png",
+        "name": "Minor/seasonal water channel",
+        "description": "A natural or man-made minor water channel which may contain water only intermittently.",
+        "control_description": ["3.5"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "307",
+        "image": "307_uncrossable_marsh.png",
+        "name": "Uncrossable marsh",
+        "description": "A marsh which is uncrossable or dangerous for the competitor. The black outline emphasises that the feature is uncrossable.",
+        "control_description": ["3.7", "3.8"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "308",
+        "image": "308_marsh.png",
+        "name": "Marsh",
+        "description": "A crossable marsh, usually with a distinct edge.",
+        "control_description": ["3.7", "3.8"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "309",
+        "image": "309_narrow_marsh.png",
+        "name": "Narrow marsh",
+        "description": "A marsh or trickle of water which is too narrow (less than about 5 m wide) to be shown with the marsh symbol.",
+        "control_description": ["3.6"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "310",
+        "image": "310_indistinct_marsh.png",
+        "name": "Indistinct marsh",
+        "description": "An indistinct marsh, seasonal marsh or an area of gradual transition from marsh to firm ground, which is crossable.",
+        "control_description": ["3.7"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "311",
+        "image": "311_well_fountain_or_water_tank.png",
+        "name": "Well, fountain or water tank",
+        "description": "A prominent well, fountain, water tank or captive spring.",
+        "control_description": ["3.9", "3.11"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "312",
+        "image": "312_spring.png",
+        "name": "Spring",
+        "description": "A source of water.",
+        "control_description": ["3.10"],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "313",
+        "image": "313_prominent_water_feature.png",
+        "name": "Prominent water feature",
+        "description": "Prominent water feature.",
+        "control_description": [],
+        "type": "Water and Marsh"
+    },
+    {
+        "code": "401",
+        "image": "401_open_land.png",
+        "name": "Open land",
+        "description": "Open land that has a ground cover (grass, moss or similar) which offers better runnability than typical open forest.",
+        "control_description": ["4.1", "4.4"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "402",
+        "image": "402_open_land_with_scattered_trees.png",
+        "name": "Open land with scattered trees",
+        "description": "Areas with scattered trees or bushes in open land.",
+        "control_description": ["4.2"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "403",
+        "image": "403_rough_open_land.png",
+        "name": "Rough open land",
+        "description": "Heath, moorland, felled areas, newly planted areas (trees lower than 1 m) or other generally open land with rough ground vegetation, heather or tall grass offering the same runnability as typical open forest.",
+        "control_description": ["4.1", "4.4"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "404",
+        "image": "404_rough_open_land_with_scattered_trees.png",
+        "name": "Rough open land with scattered trees",
+        "description": "Areas with scattered trees or bushes in rough open land.",
+        "control_description": ["4.2"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "405",
+        "image": "405_forest.png",
+        "name": "Forest",
+        "description": "Typical open forest for the particular type of terrain. If no part of the forest is easily runnable then no white should appear on the map.",
+        "control_description": ["4.8"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "406",
+        "image": "406_vegetation_slow_running.png",
+        "name": "Vegetation: slow running",
+        "description": "An area with dense vegetation (low visibility) which reduces running to about 60-80% of normal speed.",
+        "control_description": ["4.5", "4.8"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "407",
+        "image": "407_vegetation_slow_running_good_visibility.png",
+        "name": "Vegetation: slow running, good visibility",
+        "description": "An area of good visibility and reduced runnability, due to, for instance, undergrowth (brambles, heather, low bushes, cut branches). Running speed is reduced to about 60-80% of normal speed.",
+        "control_description": [],
+        "type": "Vegetation"
+    },
+    {
+        "code": "408",
+        "image": "408_vegetation_walk.png",
+        "name": "Vegetation: walk",
+        "description": "An area with dense trees or thickets (low visibility) which reduce running to about 20-60% of normal speed.",
+        "control_description": ["4.5", "4.8"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "409",
+        "image": "409_vegetation_walk_good_visibility.png",
+        "name": "Vegetation: walk, good visibility",
+        "description": "An area of good visibility that is difficult to run through, due to, for instance, undergrowth (brambles, heather, low bushes, cut branches). Running speed is reduced to about 20-60% of normal speed.",
+        "control_description": [],
+        "type": "Vegetation"
+    },
+    {
+        "code": "410",
+        "image": "410_vegetation_fight.png",
+        "name": "Vegetation: fight",
+        "description": "An area of dense vegetation (trees or undergrowth) which is barely passable. Running reduced to less than about 20% of normal speed.",
+        "control_description": ["4.5", "4.6", "4.8"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "412",
+        "image": "412_cultivated_land.png",
+        "name": "Cultivated land",
+        "description": "Cultivated land, normally used for growing crops. Runnability may vary according to the type of crops grown and the time of year.",
+        "control_description": ["4.1"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "413",
+        "image": "413_orchard.png",
+        "name": "Orchard",
+        "description": "Land planted with trees or bushes, normally in a regular pattern. The dot lines may be orientated to show the direction of planting.",
+        "control_description": ["4.1"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "414",
+        "image": "414_vineyard_or_similar.png",
+        "name": "Vineyard or similar",
+        "description": "A vineyard or similar cultivated land containing dense rows of plants offering good or normal runnability in the direction of planting. The lines are orientated to show the direction of planting.",
+        "control_description": ["4.1"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "415",
+        "image": "415_distinct_cultivation_boundary.png",
+        "name": "Distinct cultivation boundary",
+        "description": "A boundary of cultivated land vegetation (symbols 401, 412, 413, 414) or a boundary between areas of cultivated land when not shown with other symbols (fence, wall, path, etc.).",
+        "control_description": ["4.7"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "416",
+        "image": "416_distinct_vegetation_boundary.png",
+        "name": "Distinct vegetation boundary",
+        "description": "A vegetation boundary within the forest, or a distinct forest edge.",
+        "control_description": ["4.7"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "417",
+        "image": "417_prominent_large_tree.png",
+        "name": "Prominent large tree",
+        "description": "Prominent large tree.",
+        "control_description": ["4.9"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "418",
+        "image": "418_prominent_bush_or_tree.png",
+        "name": "Prominent bush or tree",
+        "description": "Prominent bush or tree.",
+        "control_description": ["4.5", "4.9"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "419",
+        "image": "419_prominent_vegetation_feature.png",
+        "name": "Prominent vegetation feature",
+        "description": "Prominent vegetation feature.",
+        "control_description": ["4.10"],
+        "type": "Vegetation"
+    },
+    {
+        "code": "501",
+        "image": "501_paved_area.png",
+        "name": "Paved area",
+        "description": "An area with a firm surface such as asphalt, hard gravel, tiles, concrete or the like.",
+        "control_description": ["5.12"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "502",
+        "image": "502_wide_road.png",
+        "name": "Wide road",
+        "description": "Wide road. Drawn to scale.",
+        "control_description": ["5.1"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "503",
+        "image": "503_road.png",
+        "name": "Road",
+        "description": "A maintained road suitable for motor vehicles in all weather. Width less than 5 m.",
+        "control_description": ["5.1"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "504",
+        "image": "504_vehicle_track.png",
+        "name": "Vehicle track",
+        "description": "A track or poorly maintained road suitable for vehicles only when travelling slowly.",
+        "control_description": ["5.2"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "505",
+        "image": "505_footpath.png",
+        "name": "Footpath",
+        "description": "An easily runnable path, bicycle track or old vehicle track.",
+        "control_description": ["5.2"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "506",
+        "image": "506_small_footpath.png",
+        "name": "Small footpath",
+        "description": "A runnable small path or (temporary) forest extraction track which can be followed at competition speed.",
+        "control_description": ["5.2"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "507",
+        "image": "507_less_distinct_small_footpath.png",
+        "name": "Less distinct small footpath",
+        "description": "A runnable less distinct / visible small path or forestry extraction track.",
+        "control_description": ["5.2"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "508",
+        "image": "508_narrow_ride_or_linear_trace.png",
+        "name": "Narrow ride or linear trace",
+        "description": "A forest ride or a prominent trace through the terrain which does not have a distinct runnable path along it. Runnability is shown using a slightly thicker line of yellow, green or white as background.",
+        "control_description": ["5.3"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "509",
+        "image": "509_railway.png",
+        "name": "Railway",
+        "description": "A railway or other kind of railed track.",
+        "control_description": [],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "510",
+        "image": "510_power_line_cableway_or_skilift.png",
+        "name": "Power line, cableway or skilift",
+        "description": "Power line, cableway or skilift. The bars show the exact location of the pylons.",
+        "control_description": ["5.55.6"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "511",
+        "image": "511_major_power_line.png",
+        "name": "Major power line",
+        "description": "Major power lines should be drawn with a double line. The gap between the lines may indicate the extent of the power line.",
+        "control_description": ["5.5", "5.6"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "512",
+        "image": "512_bridge_tunnel.png",
+        "name": "Bridge / tunnel",
+        "description": "Bridges and tunnels are represented using the same basic symbols. If it is not possible to get through a tunnel (or under a bridge), it shall be omitted.",
+        "control_description": ["5.4", "5.7"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "513.1",
+        "image": "513.1_wall.png",
+        "name": "Wall",
+        "description": "A significant wall of stone, concrete, wood or other materials.",
+        "control_description": ["5.8"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "513.2",
+        "image": "513.2_retained_wall.png",
+        "name": "Retained wall",
+        "description": "A significant wall of stone, concrete, wood or other materials which is seen only from one side. Half dot points to the lower level.",
+        "control_description": ["5.8"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "514",
+        "image": "514_ruined_wall.png",
+        "name": "Ruined wall",
+        "description": "A ruined or less distinct wall.",
+        "control_description": ["5.8"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "515",
+        "image": "515_impassable_wall.png",
+        "name": "Impassable wall",
+        "description": "An impassable or uncrossable wall, normally more than 1.5 m high.",
+        "control_description": ["5.8"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "516",
+        "image": "516_fence.png",
+        "name": "Fence",
+        "description": "If the fence forms an enclosed area, tags are placed inside.",
+        "control_description": ["5.9"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "517",
+        "image": "517_ruined_fence.png",
+        "name": "Ruined fence",
+        "description": "A ruined or less distinct fence. If the fence forms an enclosed area, tags are placed inside.",
+        "control_description": ["5.9"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "518",
+        "image": "518_impassable_fence.png",
+        "name": "Impassable fence",
+        "description": "An impassable or uncrossable fence, normally more than 1.5 m high. If the fence forms an enclosed area, tags are placed inside.",
+        "control_description": ["5.9"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "519",
+        "image": "519_crossing_point.png",
+        "name": "Crossing point",
+        "description": "A way through or over a wall, fence or other linear feature, including a gate or stile.",
+        "control_description": ["5.10"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "520",
+        "image": "520_area_that_shall_not_be_entered.png",
+        "name": "Area that shall not be entered",
+        "description": "An out-of-bounds area is a feature such as a private house, a garden, a factory or another industrial area.",
+        "control_description": ["5.23"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "521",
+        "image": "521_building.png",
+        "name": "Building",
+        "description": "Building. Shown with its ground plan so far as the scale permits.",
+        "control_description": ["5.11"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "522",
+        "image": "522_canopy.png",
+        "name": "Canopy",
+        "description": "An accessible and runnable area with roof.",
+        "control_description": ["5.21"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "523",
+        "image": "523_ruin.png",
+        "name": "Ruin",
+        "description": "A ruined building. The ground plan of a ruin is shown to scale, down to the minimum size.",
+        "control_description": ["5.13"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "524",
+        "image": "524_high_tower.png",
+        "name": "High tower",
+        "description": "A high tower or large pylon. If it is in a forest, it must be visible above the level of the surrounding forest.",
+        "control_description": ["5.6", "5.15"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "525",
+        "image": "525_small_tower.png",
+        "name": "Small tower",
+        "description": "An obvious small tower, platform or seat.",
+        "control_description": ["5.15", "5.16"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "526",
+        "image": "526_cairn.png",
+        "name": "Cairn",
+        "description": "A prominent cairn, memorial stone, boundary stone or trigonometric point.",
+        "control_description": ["5.17"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "527",
+        "image": "527_fodder_rack.png",
+        "name": "Fodder rack",
+        "description": "A fodder rack, which is free standing or attached to a tree.",
+        "control_description": ["5.18"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "528",
+        "image": "528_prominent_line_feature.png",
+        "name": "Prominent line feature",
+        "description": "A prominent man-made line feature. For example, a low pipeline (gas, water, oil, heat, etc.) or a bobsleigh / skeleton track that is clearly visible.",
+        "control_description": ["5.14"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "529",
+        "image": "529_prominent_uncrossable_line_feature.png",
+        "name": "Prominent uncrossable line feature",
+        "description": "An uncrossable man-made line feature. For example, a high pipeline (gas, water, oil, heat, etc.) or a bobsleigh / skeleton track.",
+        "control_description": ["5.14"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "530",
+        "image": "530_prominent_man-made_feature_o.png",
+        "name": "Prominent man-made feature (o)",
+        "description": "Prominent man-made feature (O) The definition of the symbol must be given on the map.",
+        "control_description": ["5.19", "5.20"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "531",
+        "image": "531_prominent_man-made_feature_x.png",
+        "name": "Prominent man-made feature (x)",
+        "description": "Prominent man-made feature (X) The definition of the symbol must be given on the map.",
+        "control_description": ["5.20"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "532",
+        "image": "532_stairway.png",
+        "name": "Stairway",
+        "description": "A distinct stairway through the terrain which helps to climb very steep slopes or to cross over impassable objects.",
+        "control_description": ["5.22"],
+        "type": "Man-made Features"
+    },
+    {
+        "code": "601",
+        "image": "601_magnetic_north_line.png",
+        "name": "Magnetic north line",
+        "description": "Lines placed on the map pointing to magnetic north, parallel to the sides of the paper.",
+        "control_description": [],
+        "type": "Technical"
+    },
+    {
+        "code": "602",
+        "image": "602_registration_mark.png",
+        "name": "Registration mark",
+        "description": "Used for printing courses on already printed maps.",
+        "control_description": [],
+        "type": "Technical"
+    },
+    {
+        "code": "603",
+        "image": "603_spot_height.png",
+        "name": "Spot height",
+        "description": "Used for the rough assessment of height differences.",
+        "control_description": [],
+        "type": "Technical"
+    },
+    {
+        "code": "701",
+        "image": "701_start.png",
+        "name": "Start",
+        "description": "The place where the orienteering starts.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "702",
+        "image": "702_map_issue_point.png",
+        "name": "Map issue point",
+        "description": "If there is a marked route to the start point, the map issue point is marked using this symbol.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "703",
+        "image": "703_control_point.png",
+        "name": "Control point",
+        "description": "Location of the control point.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "704",
+        "image": "704_control_number.png",
+        "name": "Control number",
+        "description": "Number of the control point.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "705",
+        "image": "705_course_line.png",
+        "name": "Course line",
+        "description": "Where controls are to be visited in order, the sequence is shown using straight lines from each control to the next one.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "706",
+        "image": "706_finish.png",
+        "name": "Finish",
+        "description": "The end of the course.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "707",
+        "image": "707_marked_route.png",
+        "name": "Marked route",
+        "description": "A marked route that is a part of the course. It is mandatory to follow the marked route.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "708",
+        "image": "708_out-of-bounds_boundary.png",
+        "name": "Out-of-bounds boundary",
+        "description": "A boundary which it is not permitted to cross.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "709",
+        "image": "709_out-of-bounds_area.png",
+        "name": "Out-of-bounds area",
+        "description": "An out-of-bounds area shall not be entered.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "710",
+        "image": "710_crossing_point.png",
+        "name": "Crossing point",
+        "description": "A crossing point, for instance through or over a wall or fence, across a road or railway, through a tunnel or out-of-bounds area, or over an uncrossable boundary.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "711",
+        "image": "711_out-of-bounds_route.png",
+        "name": "Out-of-bounds route",
+        "description": "Competitors are allowed to cross directly over a forbidden route, but it is forbidden to go along it.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "712",
+        "image": "712_first_aid_post.png",
+        "name": "First aid post",
+        "description": "The location of a first aid post.",
+        "control_description": [],
+        "type": "Course Planning"
+    },
+    {
+        "code": "713",
+        "image": "713_refreshment_point.png",
+        "name": "Refreshment point",
+        "description": "The location of a refreshment point which is not at a control.",
+        "control_description": [],
+        "type": "Course Planning"
+    }
+]

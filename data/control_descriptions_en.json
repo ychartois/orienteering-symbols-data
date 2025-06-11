@@ -1,0 +1,1198 @@
+[
+  {
+    "ref": "0.1",
+    "name": "Northern",
+    "column": "Column C",
+    "type": "Clarification",
+    "description": "The more northern of two similar features, or the northern-most of several similar features.",
+    "image": "0.1_northern.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "0.2",
+    "name": "South Eastern",
+    "column": "Column C",
+    "type": "Clarification",
+    "description": "The more south eastern of two similar features, or the south-eastern-most of several similar features.",
+    "image": "0.2_south_eastern.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "0.3",
+    "name": "Upper",
+    "column": "Column C",
+    "type": "Clarification",
+    "description": "Where the control feature is directly above a similar feature",
+    "image": "0.3_upper.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "0.4",
+    "name": "Lower",
+    "column": "Column C",
+    "type": "Clarification",
+    "description": "Where the control feature is directly below a similar feature",
+    "image": "0.4_lower.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "0.5",
+    "name": "Middle",
+    "column": "Column C",
+    "type": "Clarification",
+    "description": "Where the control feature is the middle one of a number of similar features.",
+    "image": "0.5_middle.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "1.1",
+    "name": "Terrace",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A flat area or strip of level ground interrupting a slope.",
+    "image": "1.1_terrace.png",
+    "map_symbols": [
+      "101",
+      "102",
+      "103"
+    ]
+  },
+  {
+    "ref": "1.2",
+    "name": "Spur",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A contour projection or \"nose\" rising from the surrounding ground.",
+    "image": "1.2_spur.png",
+    "map_symbols": [
+      "101",
+      "102",
+      "103"
+    ]
+  },
+  {
+    "ref": "1.3",
+    "name": "Re-entrant",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A gully or valley cutting into a slope.",
+    "image": "1.3_re-entrant.png",
+    "map_symbols": [
+      "101",
+      "102",
+      "103"
+    ]
+  },
+  {
+    "ref": "1.4",
+    "name": "Earth bank",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "An abrupt change in ground level which can clearly be distinguished from its surroundings.",
+    "image": "1.4_earth_bank.png",
+    "map_symbols": [
+      "104"
+    ]
+  },
+  {
+    "ref": "1.5",
+    "name": "Quarry",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "Gravel, sand or stone working in flat or inclined ground",
+    "image": "1.5_quarry.png",
+    "map_symbols": [
+      "104"
+    ]
+  },
+  {
+    "ref": "1.6",
+    "name": "Earth wall",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A narrow wall of earth projecting above the surrounding terrain; may be partially stone faced, usually man-made.",
+    "image": "1.6_earth_wall.png",
+    "map_symbols": [
+      "105",
+      "106"
+    ]
+  },
+  {
+    "ref": "1.7",
+    "name": "Erosion gully",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "An erosion gully, normally dry",
+    "image": "1.7_erosion_gully.png",
+    "map_symbols": [
+      "107"
+    ]
+  },
+  {
+    "ref": "1.8",
+    "name": "Small erosion gully",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A small erosion gully, normally dry. ",
+    "image": "1.8_small_erosion_gully.png",
+    "map_symbols": [
+      "108"
+    ]
+  },
+  {
+    "ref": "1.9",
+    "name": "Hill",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A high point. Shown on the map with contour lines.",
+    "image": "1.9_hill.png",
+    "map_symbols": [
+      "101",
+      "102",
+      "103"
+    ]
+  },
+  {
+    "ref": "1.10",
+    "name": "Knoll",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A small obvious mound or knoll. ",
+    "image": "1.10_knoll.png",
+    "map_symbols": [
+      "109",
+      "110"
+    ]
+  },
+  {
+    "ref": "1.11",
+    "name": "Saddle",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "The low point between two higher points.",
+    "image": "1.11_saddle.png",
+    "map_symbols": [
+      "101",
+      "102",
+      "103"
+    ]
+  },
+  {
+    "ref": "1.12",
+    "name": "Depression",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A depression or hollow from which the ground rises on all sides. Shown on the map with contour lines.",
+    "image": "1.12_depression.png",
+    "map_symbols": [
+      "101",
+      "102",
+      "103"
+    ]
+  },
+  {
+    "ref": "1.13",
+    "name": "Small depression",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A small, shallow, natural depression or hollow from which the ground rises on all sides.",
+    "image": "1.13_small_depression.png",
+    "map_symbols": [
+      "111"
+    ]
+  },
+  {
+    "ref": "1.14",
+    "name": "Pit",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A pit or hole with distinct steep-sides. Usually man-made. Used with symbol 8.6 to indicate a rocky pit.",
+    "image": "1.14_pit.png",
+    "map_symbols": [
+      "112",
+      "203"
+    ]
+  },
+  {
+    "ref": "1.15",
+    "name": "Broken ground",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "Clearly disturbed ground with features too small or too numerous to be mapped individually.",
+    "image": "1.15_broken_ground.png",
+    "map_symbols": [
+      "113",
+      "114"
+    ]
+  },
+  {
+    "ref": "1.16",
+    "name": "Ant hill (termite mound)",
+    "column": "Column D",
+    "type": "Landforms",
+    "description": "A mound created by ants or termites.",
+    "image": "1.16_ant_hill_termite_mound.png",
+    "map_symbols": [
+      "115"
+    ]
+  },
+  {
+    "ref": "2.1",
+    "name": "Cliff, Crag",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A cliff or rock face. May be passable or impassable.",
+    "image": "2.1_cliff_crag.png",
+    "map_symbols": [
+      "201",
+      "202"
+    ]
+  },
+  {
+    "ref": "2.2",
+    "name": "Rock Pillar",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A high, natural rock projection.",
+    "image": "2.2_rock_pillar.png",
+    "map_symbols": [
+      "206"
+    ]
+  },
+  {
+    "ref": "2.3",
+    "name": "Cave",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A hole in a rock face or hill side, which may or may not lead to underground workings.",
+    "image": "2.3_cave.png",
+    "map_symbols": [
+      "203"
+    ]
+  },
+  {
+    "ref": "2.4",
+    "name": "Boulder",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A prominent free-standing block of rock or stone.",
+    "image": "2.4_boulder.png",
+    "map_symbols": [
+      "204",
+      "205"
+    ]
+  },
+  {
+    "ref": "2.5",
+    "name": "Boulder field",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "An area covered by so many boulders that they cannot be individually mapped.",
+    "image": "2.5_boulder_field.png",
+    "map_symbols": [
+      "208",
+      "209"
+    ]
+  },
+  {
+    "ref": "2.6",
+    "name": "Boulder cluster",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A small distinct group of boulders so closely clustered together that they cannot be individually mapped.",
+    "image": "2.6_boulder_cluster.png",
+    "map_symbols": [
+      "207"
+    ]
+  },
+  {
+    "ref": "2.7",
+    "name": "Stony ground",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "An area covered with many small stones or rocks.",
+    "image": "2.7_stony_ground.png",
+    "map_symbols": [
+      "210",
+      "211",
+      "212"
+    ]
+  },
+  {
+    "ref": "2.8",
+    "name": "Bare rock",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A runnable area of rock with no earth or vegetation cover. ",
+    "image": "2.8_bare_rock.png",
+    "map_symbols": [
+      "214"
+    ]
+  },
+  {
+    "ref": "2.9",
+    "name": "Narrow passage",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A gap between two cliffs or rock faces that face each other.",
+    "image": "2.9_narrow_passage.png",
+    "map_symbols": [
+      "201",
+      "202"
+    ]
+  },
+  {
+    "ref": "2.10",
+    "name": "Trench",
+    "column": "Column D",
+    "type": "Rock and Boulders",
+    "description": "A rocky or artificial trench.",
+    "image": "2.10_trench.png",
+    "map_symbols": [
+      "215"
+    ]
+  },
+  {
+    "ref": "3.1",
+    "name": "Lake",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A large area of water, normally mapped as uncrossable.",
+    "image": "3.1_lake.png",
+    "map_symbols": [
+      "301"
+    ]
+  },
+  {
+    "ref": "3.2",
+    "name": "Pond",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A small area of water, may be shallow or seasonal.",
+    "image": "3.2_pond.png",
+    "map_symbols": [
+      "301",
+      "302"
+    ]
+  },
+  {
+    "ref": "3.3",
+    "name": "Waterhole",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A water-filled pit or depression.",
+    "image": "3.3_waterhole.png",
+    "map_symbols": [
+      "303"
+    ]
+  },
+  {
+    "ref": "3.4",
+    "name": "River, Stream",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A natural or artificial watercourse with either moving or standing water.",
+    "image": "3.4_river_stream.png",
+    "map_symbols": [
+      "301",
+      "304",
+      "305"
+    ]
+  },
+  {
+    "ref": "3.5",
+    "name": "Minor water channel, Ditch",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A natural or man-made minor water channel which may contain water only intermittently.",
+    "image": "3.5_minor_water_channel_ditch.png",
+    "map_symbols": [
+      "306"
+    ]
+  },
+  {
+    "ref": "3.6",
+    "name": "Narrow marsh",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A narrow marsh or trickle of water, too narrow to be shown on the map with the marsh symbol.",
+    "image": "3.6_narrow_marsh.png",
+    "map_symbols": [
+      "309"
+    ]
+  },
+  {
+    "ref": "3.7",
+    "name": "Marsh",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A permanently wet area with marsh vegetation.",
+    "image": "3.7_marsh.png",
+    "map_symbols": [
+      "307",
+      "308",
+      "310"
+    ]
+  },
+  {
+    "ref": "3.8",
+    "name": "Firm ground in marsh",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A non-marshy area within a marsh, or between two marshes.",
+    "image": "3.8_firm_ground_in_marsh.png",
+    "map_symbols": [
+      "307",
+      "308"
+    ]
+  },
+  {
+    "ref": "3.9",
+    "name": "Well",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A shaft containing water or a captive spring, clearly visible on the ground. Often with some form of man-made surround.",
+    "image": "3.9_well.png",
+    "map_symbols": [
+      "311"
+    ]
+  },
+  {
+    "ref": "3.10",
+    "name": "Spring",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "The source of a watercourse with a distinct outflow.",
+    "image": "3.10_spring.png",
+    "map_symbols": [
+      "312"
+    ]
+  },
+  {
+    "ref": "3.11",
+    "name": "Water tank",
+    "column": "Column D",
+    "type": "Water Features",
+    "description": "A man-made water container.",
+    "image": "3.11_water_tank.png",
+    "map_symbols": [
+      "311"
+    ]
+  },
+  {
+    "ref": "4.1",
+    "name": "Open land",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "An area with no trees. Grassland, a meadow or a field. Also heath or moorland. Used with symbol 8.8 to indicate open sandy ground.",
+    "image": "4.1_open_land.png",
+    "map_symbols": [
+      "213",
+      "401",
+      "403",
+      "412",
+      "413",
+      "414"
+    ]
+  },
+  {
+    "ref": "4.2",
+    "name": "Semi-open land",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "An area of open land with scattered trees or bushes.",
+    "image": "4.2_semiopen_land.png",
+    "map_symbols": [
+      "402",
+      "404"
+    ]
+  },
+  {
+    "ref": "4.3",
+    "name": "Forest corner",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "The corner or tip of a forested area projecting into open land.",
+    "image": "4.3_forest_corner.png",
+    "map_symbols": [
+      "405",
+      "406",
+      "408",
+      "410"
+    ]
+  },
+  {
+    "ref": "4.4",
+    "name": "Clearing",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "A small area of land free from trees within the forest.",
+    "image": "4.4_clearing.png",
+    "map_symbols": [
+      "401",
+      "403"
+    ]
+  },
+  {
+    "ref": "4.5",
+    "name": "Thicket",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "A small area of forest where the tree cover or undergrowth is so dense that it is difficult to pass. May also be used for an individual bush.",
+    "image": "4.5_thicket.png",
+    "map_symbols": [
+      "406",
+      "408",
+      "410",
+      "411",
+      "418"
+    ]
+  },
+  {
+    "ref": "4.6",
+    "name": "Linear thicket",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "A man-made line of trees or bushes that is difficult to cross. May also be used for a hedge.",
+    "image": "4.6_linear_thicket.png",
+    "map_symbols": [
+      "410",
+      "411"
+    ]
+  },
+  {
+    "ref": "4.7",
+    "name": "Vegetation boundary",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "A distinct boundary between different types of trees or vegetation.",
+    "image": "4.7_vegetation_boundary.png",
+    "map_symbols": [
+      "415",
+      "416"
+    ]
+  },
+  {
+    "ref": "4.8",
+    "name": "Copse",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "A small area of trees in open ground or a more runnable area of trees surrounded by thicker forest.",
+    "image": "4.8_copse.png",
+    "map_symbols": [
+      "405",
+      "406",
+      "408",
+      "410"
+    ]
+  },
+  {
+    "ref": "4.9",
+    "name": "Prominent tree",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "An unusual or prominent tree in either open land or forest; frequently information is also given as to its type",
+    "image": "4.9_prominent_tree.png",
+    "map_symbols": [
+      "417",
+      "418"
+    ]
+  },
+  {
+    "ref": "4.10",
+    "name": "Prominent vegetation feature e.g. root stock, tree stump",
+    "column": "Column D",
+    "type": "Vegetation",
+    "description": "The upturned root of a fallen tree, with or without the trunk. The stump of a tree.",
+    "image": "4.10_prominent_vegetation_feature_eg_root_stock_tree_stump.png",
+    "map_symbols": [
+      "419"
+    ]
+  },
+  {
+    "ref": "5.1",
+    "name": "Road",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A metalled/asphalt surfaced or dirt road, suitable for vehicles in normal weather conditions.",
+    "image": "5.1_road.png",
+    "map_symbols": [
+      "502",
+      "503"
+    ]
+  },
+  {
+    "ref": "5.2",
+    "name": "Track / Path",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A visible route made by people or animals. Tracks may be driven by rugged vehicles.",
+    "image": "5.2_track_path.png",
+    "map_symbols": [
+      "504",
+      "505",
+      "506",
+      "507"
+    ]
+  },
+  {
+    "ref": "5.3",
+    "name": "Ride",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A forest ride or a prominent trace through the terrain which does not have a distinct runnable path along it.",
+    "image": "5.3_ride.png",
+    "map_symbols": [
+      "508",
+      "401",
+      "403",
+      "416"
+    ]
+  },
+  {
+    "ref": "5.4",
+    "name": "Bridge",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A crossing point over a watercourse or other linear feature.",
+    "image": "5.4_bridge.png",
+    "map_symbols": [
+      "512"
+    ]
+  },
+  {
+    "ref": "5.5",
+    "name": "Power line",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A power or telephone line, cableway or ski lift.",
+    "image": "5.5_power_line.png",
+    "map_symbols": [
+      "510",
+      "511"
+    ]
+  },
+  {
+    "ref": "5.6",
+    "name": "Pylon",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A support for power or telephone line, cableway or ski lift.",
+    "image": "5.6_pylon.png",
+    "map_symbols": [
+      "510",
+      "511",
+      "524"
+    ]
+  },
+  {
+    "ref": "5.7",
+    "name": "Tunnel",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A way under roads, railways, etc.",
+    "image": "5.7_tunnel.png",
+    "map_symbols": [
+      "512"
+    ]
+  },
+  {
+    "ref": "5.8",
+    "name": "Wall",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A wall of stone or other materials. Used with symbol 8.11 to indicate a ruined wall.",
+    "image": "5.8_wall.png",
+    "map_symbols": [
+      "513",
+      "514",
+      "515"
+    ]
+  },
+  {
+    "ref": "5.9",
+    "name": "Fence",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A wire or wooden boundary. Used with symbol 8.11 to indicate a ruined fence.",
+    "image": "5.9_fence.png",
+    "map_symbols": [
+      "516",
+      "517",
+      "518"
+    ]
+  },
+  {
+    "ref": "5.10",
+    "name": "Crossing point",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A way through or over a wall, fence, or other linear feature, including a gate or stile.",
+    "image": "5.10_crossing_point.png",
+    "map_symbols": [
+      "519"
+    ]
+  },
+  {
+    "ref": "5.11",
+    "name": "Building",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A man-made structure. Typically of brick, wood or stone. A pillar supporting a roof.",
+    "image": "5.11_building.png",
+    "map_symbols": [
+      "521"
+    ]
+  },
+  {
+    "ref": "5.12",
+    "name": "Paved area",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "An area of hard standing used for parking or other purposes.",
+    "image": "5.12_paved_area.png",
+    "map_symbols": [
+      "501"
+    ]
+  },
+  {
+    "ref": "5.13",
+    "name": "Ruin",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "The remains of a building that has fallen down.",
+    "image": "5.13_ruin.png",
+    "map_symbols": [
+      "523"
+    ]
+  },
+  {
+    "ref": "5.14",
+    "name": "Prominent man-made line feature. e.g. pipeline; bobsleigh/ skeleton track.",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A prominent line feature such as a pipeline (gas, water, oil, etc.) or a bobsleigh/ skeleton track which is above ground level.",
+    "image": "5.14_prominent_manmade_line_feature_eg_pipeline_bobsleigh_skeleton_track.png",
+    "map_symbols": [
+      "528",
+      "529"
+    ]
+  },
+  {
+    "ref": "5.15",
+    "name": "Tower / Pylon",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A tower. Typically of metal, brick or wood. ",
+    "image": "5.15_tower_pylon.png",
+    "map_symbols": [
+      "524",
+      "525"
+    ]
+  },
+  {
+    "ref": "5.16",
+    "name": "Shooting platform",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A structure attached to a tree where a marksman or observer can sit.",
+    "image": "5.16_shooting_platform.png",
+    "map_symbols": [
+      "525"
+    ]
+  },
+  {
+    "ref": "5.17",
+    "name": "Boundary stone, Cairn",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A man-made stone or pile of stones. A cairn, memorial stone, boundary stone or trigonometric point.",
+    "image": "5.17_boundary_stone_cairn.png",
+    "map_symbols": [
+      "526"
+    ]
+  },
+  {
+    "ref": "5.18",
+    "name": "Fodder rack",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A construction for holding feed for animals.",
+    "image": "5.18_fodder_rack.png",
+    "map_symbols": [
+      "527"
+    ]
+  },
+  {
+    "ref": "5.19",
+    "name": "Charcoal burning ground, Platform",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "The clear remains of an area where charcoal was burned. A small level man-made area on a slope (a platform).",
+    "image": "5.19_charcoal_burning_ground_platform.png",
+    "map_symbols": [
+      "530",
+      "115"
+    ]
+  },
+  {
+    "ref": "5.20",
+    "name": "Monument or Statue",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A monument, memorial or statue.",
+    "image": "5.20_monument_or_statue.png",
+    "map_symbols": [
+      "530",
+      "531"
+    ]
+  },
+  {
+    "ref": "5.21",
+    "name": "Canopy",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "An accessible area with a roof. A canopy or a covered passageway through a building.",
+    "image": "5.21_canopy.png",
+    "map_symbols": [
+      "522"
+    ]
+  },
+  {
+    "ref": "5.22",
+    "name": "Stairway",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A stairway of at least two steps.",
+    "image": "5.22_stairway.png",
+    "map_symbols": [
+      "532"
+    ]
+  },
+  {
+    "ref": "5.23",
+    "name": "Out of Bounds area",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "Out of Bounds area. Typically a flower bed or similar feature.",
+    "image": "5.23_out_of_bounds_area.png",
+    "map_symbols": [
+      "520"
+    ]
+  },
+  {
+    "ref": "5.24",
+    "name": "Railway",
+    "column": "Column D",
+    "type": "Man-made Features",
+    "description": "A railway, tramway, or other kind of railed track.",
+    "image": "5.24_railway.png",
+    "map_symbols": [
+      "509"
+    ]
+  },
+  {
+    "ref": "6.1",
+    "name": "Prominent feature / Special item",
+    "column": "Column D",
+    "type": "Prominent - Special",
+    "description": "If used, an explanation of its meaning or meanings must be supplied to competitors in the pre-race information.",
+    "image": "6.1_prominent_feature__special_item.png",
+    "map_symbols": [
+      "115",
+      "313",
+      "419",
+      "531"
+    ]
+  },
+  {
+    "ref": "6.2",
+    "name": "Prominent feature / Special item",
+    "column": "Column D",
+    "type": "Prominent - Special",
+    "description": "If used, an explanation of its meaning or meanings must be supplied to competitors in the pre-race information.",
+    "image": "6.2_prominent_feature__special_item.png",
+    "map_symbols": [
+      "530"
+    ]
+  },
+  {
+    "ref": "8.1",
+    "name": "Low",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the control feature is particularly low or flat but this is not indicated on the map; e.g. Hill, low",
+    "image": "8.1_low.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.2",
+    "name": "Shallow",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the control feature is particularly shallow but this is not indicated on the map; e.g. Re-entrant, shallow.",
+    "image": "8.2_shallow.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.3",
+    "name": "Deep",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the control feature is particularly deep but this is not indicated on the map; e.g. Pit, deep.",
+    "image": "8.3_deep.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.4",
+    "name": "Overgrown",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the feature is partially covered in undergrowth or bushes that are not indicated on the map; e.g. Ruin, overgrown.",
+    "image": "8.4_overgrown.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.5",
+    "name": "Open",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the feature is in an area where the tree cover is less than the surroundings but this is not indicated on the map; e.g. Marsh, open.",
+    "image": "8.5_open.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.6",
+    "name": "Rocky, Stony",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the feature is in an area of rocky or stony ground not indicated on the map; e.g. Knoll, rocky. Also used in conjunction with symbol 1.14 to indicate a rocky pit (ISOM 203). ",
+    "image": "8.6_rocky_stony.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.7",
+    "name": "Marshy",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the feature is in an area of marshy ground not indicated on the map; e.g. Re-entrant, marshy",
+    "image": "8.7_marshy.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.8",
+    "name": "Sandy",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the feature is in an area of sandy ground not indicated on the map; e.g. Depression, sandy. Also used in conjunction with symbol 4.1 to indicate sandy ground (ISOM 213).",
+    "image": "8.8_sandy.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.9",
+    "name": "Needle leaved",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the tree or trees associated with the control feature have needle shaped leaves; e.g. Prominent tree, needle leaved.",
+    "image": "8.9_needle_leaved.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.10",
+    "name": "Broad leaved",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the tree or trees associated with the control feature are broad-leaved; e.g. Copse, broad leaved.",
+    "image": "8.10_broad_leaved.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "8.11",
+    "name": "Ruined",
+    "column": "Column E",
+    "type": "Appearance",
+    "description": "Where the feature has fallen to ground level; e.g. Fence, ruined.",
+    "image": "8.11_ruined.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "10.1",
+    "name": "Crossing",
+    "column": "Column F",
+    "type": "Combination",
+    "description": "The point at which two linear features cross.",
+    "image": "10.1_crossing.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "10.2",
+    "name": "Junction",
+    "column": "Column F",
+    "type": "Combination",
+    "description": "The point at which two linear features meet; or where a linear feature meets the side or edge of an areal feature.",
+    "image": "10.2_junction.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "11.1",
+    "name": "Bend",
+    "column": "Column F",
+    "type": "Bend",
+    "description": "Used where a linear feature makes a smooth change of direction; e.g. Path bend; River bend.",
+    "image": "11.1_bend.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.1",
+    "name": "North east side",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Used where the feature extends above the surface of the ground; e.g. Boulder, north east side; Ruin, west side. A control on the side of a feature will not usually be visible from the opposite side.",
+    "image": "12.1_north_east_side.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.2",
+    "name": "South east edge",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Used where the feature extends down from the surrounding ground and the control is situated on the edge at ground level; or where the feature extends over a significant area and the control is situated on the border of that area.",
+    "image": "12.2_south_east_edge.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.3",
+    "name": "West part",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Used where the feature extends over a significant area and the control is located neither at the centre, nor on any of the edges.",
+    "image": "12.3_west_part.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.4",
+    "name": "East corner (inside)",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Used where the edge of a feature turns through an angle of 45-135 degrees or a linear feature turns a corner.",
+    "image": "12.4_east_corner_inside.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.5",
+    "name": "South corner (outside)",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Similar to East Corner (inside) but for the outside of the feature.",
+    "image": "12.5_south_corner_outside.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.6",
+    "name": "South west tip",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Used where the edge of a feature turns through an angle of less than 45 degrees; e.g. Marsh, south west tip.",
+    "image": "12.6_south_west_tip.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.7",
+    "name": "North west end",
+    "column": "Column G",
+    "type": "Location",
+    "description": "The point at which a linear feature ends or starts; e.g. Ride, north west end; Stone wall, south end.",
+    "image": "12.7_north_west_end.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.8",
+    "name": "Upper part",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Where the feature extends over two or more contours and the control is located near the top; e.g. Erosion Gully, upper part.",
+    "image": "12.8_upper_part.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.9",
+    "name": "Lower part",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Where the feature extends over two or more contours  and the control is located near the bottom; e.g. Re- entrant, lower part.",
+    "image": "12.9_lower_part.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.10",
+    "name": "Top",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Where the control is located at the highest point of the feature and this is not the default location; e.g. Cliff, top; Stairway, top. The Upper of two levels.",
+    "image": "12.10_top.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.11",
+    "name": "Foot (no direction)",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Where the control is located at the lower junction of the slope of the feature and the surface of the surrounding area and this is not the default location; e.g. Earth bank, foot; Stairway, foot.",
+    "image": "12.11_foot_no_direction.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.12",
+    "name": "North east foot",
+    "column": "Column G",
+    "type": "Location",
+    "description": "As above, but where the feature is large enough for the control to be placed in more than one location around it; e.g. Hill, north east foot.",
+    "image": "12.12_north_east_foot.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.13",
+    "name": "Beneath",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Where the control is located underneath the feature. Also indicates the lower of two levels.",
+    "image": "12.13_beneath.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "12.14",
+    "name": "Between",
+    "column": "Column G",
+    "type": "Location",
+    "description": "Where the control is located between two features. e.g. Between thickets; Between boulder and knoll.",
+    "image": "12.14_between.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "13.1",
+    "name": "First Aid post",
+    "column": "Column H",
+    "type": "Other Information",
+    "description": "Control site where First Aid is available.",
+    "image": "13.1_first_aid_post.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "13.2",
+    "name": "Refreshment point",
+    "column": "Column H",
+    "type": "Other Information",
+    "description": "Control site where Refreshments are available.",
+    "image": "13.2_refreshment_point.png",
+    "map_symbols": []
+  },
+  {
+    "ref": "13.3",
+    "name": "Manned control",
+    "column": "Column H",
+    "type": "Other Information",
+    "description": "Manned control site.",
+    "image": "13.3_manned_control.png",
+    "map_symbols": []
+  }
+]
